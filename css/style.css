@@ -1,0 +1,195 @@
+/* General styles, mobile first */
+* {
+	box-sizing:border-box;
+}
+
+a {
+	display:block;
+}
+
+a.hover{
+	background:white;
+}
+
+body{
+	font-family: "Helvetica", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 22px;
+	width:100%;
+	background:#F0F2EB;
+}
+
+input{
+	width:80%;
+	height:55px;
+}
+
+button{
+	width:50%;
+	height:55px;
+	margin:1%;
+}
+
+article > section{
+	display:none;
+}
+
+article> section.active{
+	display:block;
+}
+
+.clear{
+	clear:both;
+}
+
+header{
+	background:#0b3242;
+	color:#F0F2EB;
+}
+
+nav{
+	width:100%;
+	background:#26ADE4;
+	text-align: center;
+}
+
+.menu{
+	width:100%;
+	margin:0% 5%;
+
+
+}
+
+.menu li{
+	width:30%;
+	margin:auto;
+	float:left;
+	list-style: none;
+}
+
+.menu li:hover{
+	background:#4DBCE9;
+
+}
+
+.menu a{
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	display:block;
+	width:100%;
+	height:100%;
+	color:#000;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#content{
+	width:100%;
+	height:100%;
+}
+
+.home header{
+	padding:2% 2%;
+	font-size: 24px;
+	background:#F0F2EB;
+	color:#26ADE4;
+	border-bottom:1px solid #26ADE4;
+}
+
+.home h2{
+	padding-top:2%;
+}
+
+#main-article{
+padding:3%;
+}
+
+header{
+	width:100%
+}
+
+header h1{
+	margin:auto;
+	text-align: center;
+	font-size: 24px;
+	padding:3%;
+}
+
+#game{
+	width:80%;
+	margin:10%;
+}
+
+.left{
+	width:40%;
+	float:left;
+}
+.right{
+	width:40%;
+	float:left;
+}
+
+
+.row20{
+	float:left;
+	width:20%;
+	height:50px;
+	line-height: 50px;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	padding-left:10px;
+	overflow:hidden;
+}
+
+.row25{
+	float:left;
+	width:25%;
+	height:50px;
+	line-height: 50px;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	padding-left:10px;
+	overflow:hidden;
+}
+
+#loader {
+display:normal;
+height:60px;
+width:60px;
+margin:0px auto;
+position:absolute;
+top:50%;
+left:50%;
+-webkit-animation: rotation .6s infinite linear;
+-moz-animation: rotation .6s infinite linear;
+-o-animation: rotation .6s infinite linear;
+animation: rotation .6s infinite linear;
+border-left:6px solid rgba(0,174,239,.15);
+border-right:6px solid rgba(0,174,239,.15);
+border-bottom:6px solid rgba(0,174,239,.15);
+border-top:6px solid rgba(0,174,239,.8);
+border-radius:100%;
+}
+
+@-webkit-keyframes rotation {
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(359deg);}
+}
+
+@-moz-keyframes rotation {
+from {-moz-transform: rotate(0deg);}
+to {-moz-transform: rotate(359deg);}
+}
+
+@-o-keyframes rotation {
+from {-o-transform: rotate(0deg);}
+to {-o-transform: rotate(359deg);}
+}
+
+@keyframes rotation {
+from {transform: rotate(0deg);}
+to {transform: rotate(359deg);}
+}
+
+.noloader{
+display:none;
+}
